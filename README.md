@@ -1,25 +1,15 @@
-# Vexorium Studios — Obsidian Signal redesign
+# Vexorium Studios — Cosmic Edition
 
-A responsive, single-page website for Vexorium Studios. No products are shown. The contact email is `Vexoriumstudioss@gmail.com`.
+A responsive static website using the Vexorium Studios banner supplied by the owner. No products are advertised.
 
-## Updating your EXISTING GitHub Pages website
+## Upload to your existing GitHub Pages repository
 
-Your current website: https://vexoriumstudios.github.io/Vexorium-Studios/
+1. Extract this ZIP on your phone or computer.
+2. In the existing `Vexorium-Studios` repository, replace the **root** `index.html` and `favicon.svg` with these versions.
+3. Upload the `assets` folder containing `vexorium-banner.png` to the **root** of the repository, preserving the path `assets/vexorium-banner.png`.
+4. Commit the changes. GitHub Pages will redeploy automatically using your existing `main` / `(root)` settings.
+5. Open `https://vexoriumstudios.github.io/Vexorium-Studios/` and refresh. If the background does not appear, check the `assets/vexorium-banner.png` path and filename.
 
-**Only two files are required:** `index.html` and `favicon.svg`. All styling and functionality are inside `index.html`.
+The page is self-contained except for the banner image and favicon. Old `styles.css`, `script.js`, and `config.js` files are not used by this design and may be deleted later, after verifying the new site works. Do not delete the `assets` folder.
 
-1. Open your existing `Vexorium-Studios` GitHub repository, on the `main` branch.
-2. Open the existing `index.html`, tap the pencil icon to edit, select all existing text, and replace it with the full contents of the NEW `index.html` from this download. Commit changes.
-3. Open the existing `favicon.svg`, replace its contents with the new `favicon.svg`, and commit. This is optional but recommended.
-4. Wait for the Pages deployment to finish, then refresh your live website. If the old site remains visible, refresh again or use an incognito tab.
-
-Alternative: Delete the existing `index.html` and `favicon.svg` files from the repository, then upload the new files directly to the repository root using **Add file → Upload files**. Commit the changes. Do not upload the ZIP itself.
-
-You can leave `styles.css`, `script.js`, and `config.js` in the repository; the new `index.html` doesn't use them. They can be deleted later if you wish.
-
-## Important
-
-- Keep the repository name and Pages settings unchanged; your existing URL stays the same.
-- The site does not claim that any product is available.
-- Test the Contact email link after publishing.
-- GitHub Pages may take a few minutes to deploy changes.
+Contact email: Vexoriumstudioss@gmail.com. This email will be publicly visible on the site.
