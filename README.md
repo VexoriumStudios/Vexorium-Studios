@@ -1,36 +1,25 @@
-# Vexorium Studios — Publisher Website
+# Vexorium Studios — Obsidian Signal redesign
 
-A responsive, static, no-build website for Vexorium Studios. Includes Home, Products, About, Support, and Contact sections. Product imagery is a concept illustration, not an actual screenshot.
+A responsive, single-page website for Vexorium Studios. No products are shown. The contact email is `Vexoriumstudioss@gmail.com`.
 
-## IMPORTANT before publishing
+## Updating your EXISTING GitHub Pages website
 
-1. Open `config.js` and set `supportEmail` to a real, monitored email address. Do not publish with a missing contact address; Unity may require working contact information.
-2. Review all product claims and update availability, compatibility, and documentation as testing progresses. ScenePilot is currently marked **In Development** and **not available for purchase**.
-3. Check your publisher profile details and Unity's latest requirements. A website alone does not guarantee publisher approval.
-4. Verify that the name Vexorium Studios is available for your use, including potential trademarks.
+Your current website: https://vexoriumstudios.github.io/Vexorium-Studios/
 
-## Preview
+**Only two files are required:** `index.html` and `favicon.svg`. All styling and functionality are inside `index.html`.
 
-Open `index.html` in a browser. No dependencies or build step.
+1. Open your existing `Vexorium-Studios` GitHub repository, on the `main` branch.
+2. Open the existing `index.html`, tap the pencil icon to edit, select all existing text, and replace it with the full contents of the NEW `index.html` from this download. Commit changes.
+3. Open the existing `favicon.svg`, replace its contents with the new `favicon.svg`, and commit. This is optional but recommended.
+4. Wait for the Pages deployment to finish, then refresh your live website. If the old site remains visible, refresh again or use an incognito tab.
 
-## Publish for free using GitHub Pages
+Alternative: Delete the existing `index.html` and `favicon.svg` files from the repository, then upload the new files directly to the repository root using **Add file → Upload files**. Commit the changes. Do not upload the ZIP itself.
 
-1. Create a GitHub account (follow the provider's age and eligibility requirements).
-2. Create a public repository such as `vexorium-studios`.
-3. Upload the **contents** of this folder to the repository root (not the ZIP file).
-4. Go to repository Settings → Pages → Build and deployment → Deploy from a branch; choose `main` and `/ (root)` and save.
-5. Once published, your URL will generally resemble `https://YOUR-USERNAME.github.io/vexorium-studios/`. Verify the actual URL in GitHub Pages settings.
-6. Open the live site on mobile and desktop, confirm the contact email link works, then paste that live URL into your Unity publisher profile.
+You can leave `styles.css`, `script.js`, and `config.js` in the repository; the new `index.html` doesn't use them. They can be deleted later if you wish.
 
-You can also deploy this folder on other static hosts that support HTML/CSS/JS. Domain and hosting provider terms may change.
+## Important
 
-## Customization
-
-- Brand name and copy: `index.html`
-- Colors and layout: `styles.css` (`:root` variables)
-- Contact email: `config.js`
-- Icon: `favicon.svg`
-
-## Limitations
-
-This website does not provide a contact form, customer account system, or checkout. Unity Asset Store is intended to handle marketplace purchasing. Contact is by email once configured. The site is not hosted or published by this package.
+- Keep the repository name and Pages settings unchanged; your existing URL stays the same.
+- The site does not claim that any product is available.
+- Test the Contact email link after publishing.
+- GitHub Pages may take a few minutes to deploy changes.
